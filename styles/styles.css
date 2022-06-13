@@ -1,0 +1,435 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.barraIdiomas {
+    background-color: #222222;
+    height: 20px;
+    position: relative;
+}
+
+
+.listaIdiomas {
+    list-style-type: none;
+    display: inline;
+    margin-left: 1000px;
+}
+
+.liIdiomas {
+    display: inline-block
+}
+
+.spanIdiomas {
+    color: white;
+    margin-left: 100px;
+}
+
+.español {
+    margin-right: 10px;
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+}
+
+body {
+    margin-left: 0px;
+}
+
+.menu {
+    background-color: #F0A83E;
+    height: 62px;
+    position: relative;
+    align-items: center;
+}
+
+.menus {
+    display: inline;
+    float:right;
+    padding: 0px;
+    margin: 0px;
+    position: absolute;
+    right: 50px;
+    top: 20px;
+}
+
+.listaMenu {
+    height: 75px;
+}
+
+.logo {
+    position: absolute;
+    left: 50px;
+    top: 20px;
+}
+
+.menus1 {
+    display: inline;
+    padding: 0px 12px;
+
+}
+
+.section1 {
+    background-image: url(../Img/bowl-and-pet-daities-on-green-background\ 1.png);
+    height: 600px; 
+    background-size: cover;
+}
+
+.patita {
+    text-decoration: none;
+    color: white;
+}
+
+.esUnPlacer {
+    margin: 0;
+    color: #3C2313;
+    background-color: white;
+    font-size: 40px;
+    height: 54px;
+    padding: 10px 9px;
+    border-radius: 5px;
+}
+
+.main {
+    width: fit-content;
+    display: inline-block;
+    position: relative;
+    left: 1020px;
+    top: 300px;
+    height: 400px;
+}
+
+#comederosendescuento {
+    text-align: center;
+    font-size: 25px;
+    color: #3C2313;
+    padding: 12px 0;
+}
+
+.COMEDEROS {
+    display: absolute;
+    padding: 20px 0;
+    color: white;
+}
+
+.noDec {
+    text-decoration: none;
+}
+
+.noDec:link {
+    text-decoration: none;
+}
+
+.noDec:visited {
+    text-decoration: none;
+}
+
+.noDec:active {
+    text-decoration: none;
+}
+
+.buttonMain {
+    text-align: center;
+    position: relative;
+    left: 150px;
+    height: 65px;
+    width: 171px;
+    font-size: 19px;
+    background-color: #F0A83E;
+    border-color: #F0A83E;
+    border-radius: 5px;
+    text-transform: uppercase;
+    color: white;
+    align-items: center;
+    margin: 0px;
+}
+
+.divMain1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.divMain1 img {
+    width: 67px;
+    height: 71px;
+    margin-top: 10px;
+}
+
+.containerMain1 {
+    display: flex;
+    justify-content: center;
+    height: 250px;
+}
+
+h1 {
+    font-size: 40px;
+    color: #3C2313;
+    margin-bottom: 10px;
+}
+
+.divMain1 ul {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+}
+
+.divMain1 ul li {
+    padding: 0px 10px;
+    text-decoration: none;
+}
+
+.divMain1 ul li a {
+    text-decoration: none;
+    color: #666666;
+    font-size: 15px;
+}
+
+.divMain2 {
+    display: flex;
+    margin: 0px 100px 80px;
+    justify-content: space-evenly;
+}
+
+.pa {
+    color: #3C2313;
+}
+
+.article1, article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pa2 {
+    color: #F0A83E;
+}
+
+.input::placeholder {
+    color: white;
+}
+
+.input {
+    width: 28vw;
+    height: 40px;
+    background-color: #3C2313;
+    outline: 0;
+    border: none;
+    color: white;
+}
+
+.sectionMain3 {
+    display: flex;
+    justify-content: center;
+}
+
+
+.divMain3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.divInput {
+    width: 30vw;
+    height: 50px;
+    background-color: #3C2313;
+    margin: 8px 0px;
+}
+
+.divinput {
+    width: 30vw;
+    height: 50px;
+    background-color: #3C2313;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 7px 0px;
+}
+
+.buttons {
+    display: flex;
+    margin: 40px;
+}
+
+.buttons button {
+    margin: 0px 5px;
+    border: none;
+    width: 130px;
+    height: 42px;
+    border-radius: 15px;
+    font-size: 18px;
+}
+
+.resetear {
+    background-color: #8A8787;
+    color: white;
+}
+
+.enviar {
+    background-color: #F0A83E;
+    color: white;
+}
+
+.divMain3 h3 {
+    font-size: 27px;
+    color: #3C2313;
+    margin-bottom: 12px;
+}
+
+.resetear:hover {  
+    background-color: #706c6c;
+}
+
+.resetear:active {
+    background-color: #5f5b5b;
+}
+
+.enviar:hover {
+    background-color: #e3a03c;
+}
+
+.enviar:active {
+    background-color: #c78c33;
+}
+
+.navFooter {
+    background-color: #F0A83E;
+    display: flex;
+    height: 60px;
+}
+
+.divFooter1 {
+    width: 50%;
+    display: flex;
+    margin-left: 20px;
+    align-items: center;
+}
+
+.divFooter1 h3 {
+    margin: 0px 10px;
+    color: white;
+}
+
+.divFooter2 {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.divFooter2 button {
+    margin: 0px 5px;
+}
+
+.inputcorreo {
+    width: 28vw;
+    height: 40px;
+    background-color: white;
+    outline: 0;
+    border: none;
+    color: rgb(46, 45, 45)
+}
+
+
+.buttonsub {
+    width: 100px;
+    height: 50px;
+    background-color: #3C2313;
+    outline: 0;
+    border: none;
+    color: white;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.suscribirme {
+    width: 100px;
+    height: 50px;
+    background-color: #3C2313;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #A0A0A0;
+    margin: 0px 10px;
+    cursor: pointer;
+}
+
+.suscribirme a {
+    width: 100%;
+    height: 100%;
+}
+
+.buttonsub:hover {
+    background-color: #331d10;
+}
+
+.suscribirme:hover {
+    background-color: #331d10;
+}
+
+.divInputFooter {
+    width: 30vw;
+    height: 50px;
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #A0A0A0;
+}
+
+.footermarron {
+    background-color: #3C2313;
+    height: 284px;
+    display: flex;
+}
+
+.footerLogos {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    justify-content: center;
+}
+
+.footerLogos img {
+    height: 66px;
+    width: 66px;
+}
+
+.footerLogos2 {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 100px;
+}
+
+.footerFlex {
+    display: flex;
+    margin: 10px 0px;
+}
+
+.h2yp {
+    margin-left: 30px;
+    color: white;
+}
+
+.h2yp p {
+    color: #8A8787;
+    font-size: 12px;
+}
+
+.uFooter {
+    height: 20px;
+    background-color: #222222;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
