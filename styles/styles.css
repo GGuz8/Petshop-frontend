@@ -4,17 +4,26 @@
     font-family: 'Roboto', sans-serif;
 }
 
+
 .barraIdiomas {
     background-color: #222222;
     height: 20px;
-    position: relative;
+    display: flex;
+}
+.pDiv {
+    width: 50%;
 }
 
 
+.ulDiv {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 50px
+}
+
 .listaIdiomas {
-    list-style-type: none;
-    display: inline;
-    margin-left: 1000px;
+
 }
 
 .liIdiomas {
@@ -26,9 +35,6 @@
     margin-left: 100px;
 }
 
-.español {
-    margin-right: 10px;
-}
 
 .link {
     color: white;
@@ -76,6 +82,9 @@ body {
     background-image: url(../Img/bowl-and-pet-daities-on-green-background\ 1.png);
     height: 600px; 
     background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 .patita {
@@ -95,11 +104,10 @@ body {
 
 .main {
     width: fit-content;
-    display: inline-block;
-    position: relative;
-    left: 1020px;
-    top: 300px;
-    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-right: 30px;
 }
 
 #comederosendescuento {
@@ -210,10 +218,11 @@ h1 {
 
 .input::placeholder {
     color: white;
+    width: 27vw;
 }
 
 .input {
-    width: 28vw;
+    width: 27vw;
     height: 40px;
     background-color: #3C2313;
     outline: 0;
@@ -432,4 +441,20 @@ h1 {
     display: flex;
     justify-content: center;
     color: white;
+}
+
+@media only screen and (max-width: 1000px) {
+    .divMain2 {
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 706px) {
+    .menus {
+        display: none;
+    }
+    .input {
+        width: 298px;
+    }
+
 }
