@@ -12,6 +12,7 @@
 }
 .pDiv {
     width: 50%;
+    display: flex;
 }
 
 
@@ -249,8 +250,8 @@ h1 {
     margin: 8px 0px;
 }
 
-.divinput {
-    width: 30vw;
+input {
+    width: 340px;
     height: 50px;
     background-color: #3C2313;
     border-radius: 15px;
@@ -258,6 +259,7 @@ h1 {
     justify-content: center;
     align-items: center;
     margin: 7px 0px;
+    padding-left: 20px;
 }
 
 .buttons {
@@ -336,7 +338,7 @@ h1 {
 
 .inputcorreo {
     width: 28vw;
-    height: 40px;
+    height: 50px;
     background-color: white;
     outline: 0;
     border: none;
@@ -457,4 +459,21 @@ h1 {
         width: 298px;
     }
 
+}
+
+@media (max-width: 672px) {
+    .navFooter {
+        height: 101px;
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        align-items: center;
+    }
+
+    .divFooter1 {
+        display: flex;
+        flex-wrap: nowrap;
+        width: 100vw;
+        justify-content: center;
+    }
 }

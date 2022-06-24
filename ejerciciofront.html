@@ -19,13 +19,13 @@
     <div>
       <nav class="barraIdiomas">
         <div class="pDiv">
-          <span class="spanIdiomas">Grandes ofertas en comederos</span>
+          <p class="spanIdiomas">Grandes ofertas en comederos</p>
         </div>
-        <div>
-        <ul>
-          <li class="liIdiomas español"><a class="link" href="#!">Español</a></li>
-          <li class="liIdiomas ARG"><a class="link" href="#!">$ARG</a></li>
-        </ul>
+        <div class="ulDiv">
+          <ul>
+            <li class="liIdiomas español"><a class="link" href="#!">Español</a></li>
+            <li class="liIdiomas ARG"><a class="link" href="#!">$ARG</a></li>
+          </ul>
         </div>
       </nav>
     </div>
@@ -94,22 +94,21 @@
       </div>
 
     <section class="sectionMain3">
-      <div class="divMain3">
-        <h3>Contáctanos</h3>
-        <div class="divinput">
-          <input class="input" type="text" id="nomYap" placeholder="Nombre y Apellido">
+      <form action="">
+        <div class="divMain3">
+          <h3>Contáctanos</h3>
+
+            <input class="input" name="nombre" type="text" id="nomYap" placeholder="Nombre y Apellido">
+
+            <input class="input" name="correo" type="mail" placeholder="Ingresá tu correo electrónico">
+
+            <input class="input" name="telefono" type="text" placeholder="Teléfono">
+          <div class="buttons">
+            <button class="resetear">Resetear</button>
+            <button class="enviar">Enviar</button>
+          </div>
         </div>
-        <div class="divinput">
-          <input class="input" type="mail" placeholder="Ingresá tu correo electrónico">
-        </div>
-        <div class="divinput">
-          <input class="input" type="text" placeholder="Teléfono">
-        </div>
-        <div class="buttons">
-          <button class="resetear">Resetear</button>
-          <button class="enviar">Enviar</button>
-        </div>
-      </div>
+      </form>
     </section>
   </main>
   <footer>
@@ -120,9 +119,9 @@
           <h3>Suscríbete para más novedades</h3>
         </div>
         <div class="divFooter2">
-          <div class="divInputFooter">
+
             <input class="inputcorreo" type="text" placeholder="Ingresá tu correo electronico">
-          </div>
+
           <div class="suscribirme">
             <a href="#!"><button class="buttonsub">Suscribirme</button></a>
           </div>
